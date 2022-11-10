@@ -3,6 +3,11 @@
 ## 创建版本库
 
 ```
+$ git config --global user.name "<name>"
+$ git config --global user.email "<email>"
+$ git config user.name
+$ git config user.email
+$ ssh-keygen -t rsa -C "<email>"
 $ git clone <url> #clone a remote repository with SSH protocol or HTTPS protocol
 $ git init [folder] #initialize local repository
 ```
