@@ -50,6 +50,7 @@ $ git checkout <branch>
 $ git checkout -b <new branch> #build and switch to a new branch using the current branch as a prototype
 $ git checkout -b <new branch> origin/<remote branch>
 $ git diff <branch>
+$ git cherry-pick <commit>
 ```
 
 ## 合并与衍合

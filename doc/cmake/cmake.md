@@ -17,3 +17,35 @@ $ gcc -std=<standard> <source>
 $ gcc -D<Macro> <source>
 ```
 
+## CMakeLists
+
+```cmake
+cmake_minimum_required(VERSION <version number>)
+
+project(<project name> <language>)
+
+###
+set(CMAKE_C_STANDARD <standard number>)
+set(CMAKE_CXX_STANDARD <standard number>)
+###
+
+###
+link_directories(${PROJECT_SOURCE_DIR}/lib)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+###
+
+###
+add_executable(<out file> <source files>...)
+add_library(<out file> <source files>...)
+add_library(<out file> SHARED <source files>...)
+###
+
+target_link_libraries(<executable file> <libraries>...)
+```
+
+## 区别
+
+- .o文件：编译时链接
+- .a文件：编译后链接
+- .so文件：运行时链接
+
