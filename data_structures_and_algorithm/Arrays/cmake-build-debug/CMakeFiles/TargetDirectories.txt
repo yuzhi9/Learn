@@ -1,3 +1,0 @@
-C:/Users/yuzhi/Documents/learn/data_structures_and_algorithm/Arrays/cmake-build-debug/CMakeFiles/Arrays.dir
-C:/Users/yuzhi/Documents/learn/data_structures_and_algorithm/Arrays/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/yuzhi/Documents/learn/data_structures_and_algorithm/Arrays/cmake-build-debug/CMakeFiles/rebuild_cache.dir
