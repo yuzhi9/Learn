@@ -7,8 +7,8 @@
 #define MAX_SIZE 100
 
 typedef struct {
-    int age;
     char name[10];
+    int age;
 }Student;
 
 class Arrays {
@@ -17,7 +17,12 @@ private:
     int length;
 public:
     Arrays();
-    unsigned char arraysInit(int dataCount);
+    short arraysInit();
+    void showArrays();
+    void readOne();
+    short addData();
+    short deleteData();
+    short updateData();
     ~Arrays();
 };
 

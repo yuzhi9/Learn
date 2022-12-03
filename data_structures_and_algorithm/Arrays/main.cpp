@@ -3,6 +3,7 @@
 using namespace std;
 static char data_structure_type[10] = {"Arrays"};
 int main() {
+    Arrays arrays;
     short operatorNumber;
     while (true)
     {
@@ -18,21 +19,29 @@ int main() {
         if(operatorNumber == 7) {return 0;}
         switch(operatorNumber){
             case 1:
+                arrays.arraysInit();
                 break;
             case 2:
+                arrays.showArrays();
                 break;
             case 3:
+                arrays.readOne();
                 break;
             case 4:
+                arrays.addData();
+                arrays.showArrays();
                 break;
             case 5:
+                arrays.deleteData();
+                arrays.showArrays();
                 break;
             case 6:
+                arrays.updateData();
+                arrays.showArrays();
                 break;
             default:
                 cout<<"No such operation! Please input again\n"<<endl;
                 break;
         }
     }
-    return 0;
 }
