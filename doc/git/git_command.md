@@ -72,6 +72,7 @@ $ git pull
 $ git pull <remote> <remote branch>
 $ git push
 $ git push <remote> <remote branch>
+$ git push -f <remote> <remote branch> #-f meaning is force
 $ git push <remote> <local branch>:<remote branch>
 $ git push --set-upstream <remote> <remote branch> #Associate the current branch to a remote branch
 $ git push <remote> --delete <remote branch>
