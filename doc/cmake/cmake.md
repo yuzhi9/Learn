@@ -1,5 +1,9 @@
 # cmake
 
+### 简述
+
+cmake的作用是将项目做一个plan，“编译链接”时会按照这个plan进行，所以，CMakeLists.txt并不一定是按顺序执行的，它的作用只是描述plan
+
 ## gcc/g++
 
 ```
